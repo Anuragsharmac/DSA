@@ -50,12 +50,10 @@ int main()
         for(int j = 0; j<Adj[i].size(); j++)
         {
             cout<<Adj[i][j]<<",";
-
-        }
+       }
         cout<<endl;
     }
     cout<<"Order of DFS is =>";
     DFS(Adj,N);
     return 0;
-
 }
